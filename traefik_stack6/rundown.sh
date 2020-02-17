@@ -60,7 +60,6 @@ function parse_params() {
 # OUTS: None
 function main() {
     # load config and variables for this project
-    source "$(dirname "${BASH_SOURCE[0]}")/config_and_vars.sh"
     source "$(dirname "${BASH_SOURCE[0]}")/shellcheck.sh"
 
     trap script_trap_err ERR

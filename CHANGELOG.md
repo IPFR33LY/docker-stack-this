@@ -1,19 +1,269 @@
+# CHANGELOG.md - docker-stack-this
 
-# Changelog
+All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+FirePress Public Roadmap:
+https://trello.com/b/0fCwwzqc/firepress-public-roadmap
+
+Based on this template:
+https://gist.github.com/pascalandy/af709db02d3fe132a3e6f1c11b934fe4
+
+# STATUS TEMPLATE
+### ⚡️ Updates
+### 🚀 Added (new feat.)
+### 🐛 Fix bug
+### 🛑 Removed
+### 🔑 Security
+
+---
+
+# Releases
+
+## 3.0.0
+### 🚀 Added (new feat.)
+- acefbd7d Update to Traefik V2 / usiung DIR traefik_stack6 / squashed
+
+## 2.3.2
+### ⚡️ Updates
+- a171eac Updated to version: 1.7.20
+- 55e47c4 update traefik:1.7.20
+- 1a12f35 copy updates
+- 36cba80 reset traefik_stack6 directory
+- b3d7e3c Merge branch 'master' into edge
+
+## 2.3.1
+### ⚡️ Updates
+ee52e50 Add dockerignore
+e71e452 update to 1.7.19
+703087c update to 1.7.18
+d1bdd91 update to 1.7.17
+31dc46a update to 1.7.16
+2100493 update to 1.7.15
+d813a66 update to 1.7.14
+7f545f8 rollback from 1.7.13
+b2775e3 Testing 1.7.19 /d
+c3d4979 Testing 1.7.19 /c
+334ed02 Testing 1.7.19 /b
+09f154b using branch edge instead of dev when developping
+37d1783 better template for gitognore
+74fedae update to traefik:1.7.19
+c976e59 simple linting
+dc0aa7b rollback to 1.7.12
+ba856bc add ping
+970af4a Better UX
+be60c96 Fix stack’s name
+d4643fd update to traefik 1.7.14
+7af3a62 removed / its part of traefik_stack5
+25306fb remove ToDo as it is managed in github issues
+d78dcea cleaner script
+b21424e Init / env-template
+
+## 2.3.0
+### ⚡️ Updates
+- 6c559e20 update to traefik:1.7.13
+- various scripts updates
+
+# Releases
+
+## 1.7.20
+### ⚡️ Updates
+a171eac Updated to version: 1.7.20
+55e47c4 update traefik:1.7.20
+1a12f35 copy updates
+36cba80 reset traefik_stack6 directory
+b3d7e3c Merge branch 'master' into edge
+
+## 1.7.19
+### ⚡️ Updates
+ee52e50 Add dockerignore
+e71e452 update to 1.7.19
+703087c update to 1.7.18
+d1bdd91 update to 1.7.17
+31dc46a update to 1.7.16
+2100493 update to 1.7.15
+d813a66 update to 1.7.14
+7f545f8 rollback from 1.7.13
+b2775e3 Testing 1.7.19 /d
+c3d4979 Testing 1.7.19 /c
+334ed02 Testing 1.7.19 /b
+09f154b using branch edge instead of dev when developping
+37d1783 better template for gitognore
+74fedae update to traefik:1.7.19
+c976e59 simple linting
+dc0aa7b rollback to 1.7.12
+ba856bc add ping
+970af4a Better UX
+be60c96 Fix stack’s name
+d4643fd update to traefik 1.7.14
+7af3a62 removed / its part of traefik_stack5
+25306fb remove ToDo as it is managed in github issues
+d78dcea cleaner script
+b21424e Init / env-template
+## 2.2.3
+### 🐛 Fix bug
+- 2a253c82 moved proxysocket at the root of the projet
+
+## 2.2.2
+### 🐛 Fix bug
+- 99d105bc FIX push_release script
+
+## 2.2.1
+### ⚡️ Updates
+- 5effe45b Merge branch 'dev'
+- 58038798 cleaner release
+- c2750e83 update changelog
+### 🐛 Fix bug
+- badd1f18 FIX script since I upgraded my hard drive
+
+## 2.2.0
+### 🚀 Added (new feat.)
+- ea604e32 Replace Socat with ProxySocket based on haproxy
+
+## 2.1.0
+### ⚡️ Updates
+- 14814568 Update to caddy 1.0.1
+- c717d97f Better UX when script is running
+- b9ec040e update to Traefik:1.7.12
+
+## 2.03
+### ⚡️ Updates
+- 0aee933a readme update
+- 02df3144 update to socatproxy:1.2
+- d7499f92 roll back
+- b9261af6 remove stack6 wip
+
+## 2.02
+### ⚡️ Updates
+- 16c1dca0 Update to Traefik 1.7.9
+- 60c8469d update path
+
+## 2.01
+### ⚡️ Updates
+- 639050dd Update to Traefik 1.7.9
+- Added a script to push release easily
+- Better gitignore
+- comment about a compose file beeing tested
+
+## 2.00
+### ⚡️ Updates
+- bump to traefik 1.7.8
+
+p.s. I bump to a major version because in my overall DevOps set up it makes sense. But there is nothing major regarding this particular repo.
+
+## 1.56
+### ⚡️ Updates
+- bump to traefik 1.7.7
+- better log management on all services
+- better README
+- better comments within compose files
+
+## 1.55
+### 🚀 Added (new feat.)
+- traefik is now using Authentification
+
+## 1.54
+### ⚡️ Updates
+- d2b3a5fa readme udpate
+- bump to caddy 0.11.1
+- bump to traefik 1.7.6
+- remove static files for webapps
+
+## 1.53
+### 🚀 Added (new feat.)
+- Added portainer with its agent
+
+## 1.52
+### ⚡️ Updates
+- fixed minimum memory requirement from 1M to 4M
+
+## 1.51
+### ⚡️ Updates
+- update memory defaults
+
+## 1.50
+### 🚀 Added (new feat.)
+- added bash-template (best practices)
+- cleaning the project
+
+## 1.49
+### ⚡️ Updates
+- update to traefik 1.7.5
+- rebuild socatproxy from alpine:3.8
+- Add a ntw_proxy network
+- various code cleaning
+- removed DIR traefik_stack6-wip
+
+## 1.48
+### 🐛 Fix bug
+- Fix trailing ‘/‘ issue for portainer
+
+## 1.47
+### ⚡️ Updates
+- bump to traefik 1.6.6
+
+## 1.47
+### ⚡️ Updates
+- bump to traefik 1.6.5
+
+## 1.45
+### ⚡️ Updates
+- 60dc878c bump to traefik 1.6.4
+
+## 1.44
+### ⚡️ Updates
+- we still use portainer 1.16.5
+	- 2541361e portainer 1.17.1 is not stable
+- 58e236ed portainer major refactoring /C
+- could not run caddy 0.11.0
+	- 3f7608a1 rollback caddy:0.10.14
+- 2c5bd542 bump to portainer:1.17.1
+- 19a757d0 bump to traefik:1.6.2-alpine
+
+## 1.43
+### ⚡️ Updates
+could not work under branch 1.43 weird …
+
+## 1.42
+### ⚡️ Updates
+- update to traefik 1.6.0
+- update to nginx 1.13.12
+- update caddy to 1.10.14
+- update README
+- well tested on https://labs.play-with-docker.com/
+
+b66611b4 READme update
+eb492fef READme update
+98a54757 READme update
+55cb5a1b READme update
+1408365b READme update
+93a1d91f READme update
+3c587c58 bump to caddy:0.10.14
+4c614091 bump to caddy:0.10.14
+60081cf7 bump to nginx:1.13.12-alpine
+f3be35c4 READme update
+653be7b7 bump to traefik:1.6.0-alpine
+d2449e7f READme up
+4aa41bdf wip WordPress /f
+4510e87e wip WordPress /e
+1aa0500c wip WordPress /d
+25e0ed76 wip WordPress /c
+d4956c4a wip WordPress /b
+26fd5d72 wip WordPress
+ac3b2856 minor updates
 
 ## bump to 1.41
-
+### ⚡️ Updates
 - caddy 0.10.12
 - Testing wordpress via traefik_stack6-wip
 - update to portainer 1.16.5
 
 ## bump to 1.40
-
+### ⚡️ Updates
 - update to nginx 1.13.10-alpine
 - update to caddy 0.10.11
 
 ## bump to 1.38
-
+### ⚡️ Updates
 commit 8753f097247200e666355c2e4f6d8df83b6f093b
 Author: Pascal Andy <pascal@firepress.org>
 Date:   Thu Mar 22 22:08:04 2018 -0400
